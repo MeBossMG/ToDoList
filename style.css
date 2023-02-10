@@ -1,0 +1,80 @@
+body{
+    background-color: rgba(75, 68, 68, 0.315);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#newtask{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+#newtask input{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+}
+
+#newtask button{
+    height: 40px;
+    width: 50px;
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+#newtask button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+#tasks{
+    background-color: aqua;
+    width: 800px;
+    border-radius: 10px;
+}
+
+#task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    height:auto;
+}
+#task:hover{
+    background-color: bisque;
+    border-radius: 10px;
+}
+#task button{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#task p{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+#task button{
+    width: 100px;
+    height: 40px;
+}
+
+#error{
+    visibility: hidden;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
