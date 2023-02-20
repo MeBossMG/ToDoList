@@ -1,2 +1,2 @@
 # ToDoList
-Create a your to do list
+Create your to do list.
